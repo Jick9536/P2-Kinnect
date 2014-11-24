@@ -171,10 +171,10 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
 
             // Create an image source that we can use in our image control
             this.imageSource = new DrawingImage(this.drawingGroup);
-
+            
             // Display the drawing using our image control
             Image.Source = this.imageSource;
-
+            SkeletonImage.Source = this.imageSource;
             // Look through all sensors and start the first connected one.
             // This requires that a Kinect is connected at the time of app startup.
             // To make your app robust against plug/unplug, 

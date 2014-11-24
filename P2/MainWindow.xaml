@@ -59,6 +59,11 @@
         <Viewbox Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Center">
             <Image Name="Image" Width="640" Height="534"/>
         </Viewbox>
+
+        <Viewbox Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Center">
+            <Image Name="SkeletonImage" Width="640" Height="534"/>
+        </Viewbox>
+        
         <StatusBar Grid.Row="3" HorizontalAlignment="Stretch" Name="statusBar" VerticalAlignment="Bottom" Background="White" Foreground="{StaticResource MediumGreyBrush}">
             <StatusBarItem Padding="0 0 0 10">
                 <TextBlock x:Name="statusBarText" Margin="-1 0 0 0"><Run Language="es-es" Text="Based on skeleton-basics-wpf. Co. Microsoft."/></TextBlock>
