@@ -605,7 +605,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
         /// <param name="skeleton"> skeleton acual. Nube de puntos</param>
         /// <param name="angulo"> Angulo deseado alcanzar al mover el pie. Consideramos que este angulo no va a poder pasar de 90 grados. Si no se especifica un angulo presupongo angulo de 20 grados</param>
         /// <return> entero . -1 si el angulo no es valido. 0 si la posición no es correcta. 1 si la posición es correcta. 2 si esta por debajo. 3. si esta por arriba</return>
-        private int pierna_izq_arriba(Skeleton skeleton, double angulo = 10.0)
+        private int pierna_izq_arriba(Skeleton skeleton, double angulo = 25.0)
         {
             //Color
             int num = -1;
@@ -640,7 +640,9 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                //Por encima
                if ((angulo_actual <= angulo * 0.95) && angulo_actual != 0)
                {
-                   num = 3;
+                   
+                   num = 1;
+                   System.Console.WriteLine(num);
                }
                else
                {
@@ -648,17 +650,20 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                    if (angulo_actual >= angulo * 1.05)
                    {
                        num = 2;
+                       System.Console.WriteLine(num);
                    }
                    else
                    {
                        //Posición correcta
-                       if ((angulo_actual >= angulo * 1.05) && (angulo_actual <= angulo * 0.95))
+                       if ((angulo_actual > angulo * 1.05) && (angulo_actual < angulo * 0.95))
                        {
                            num = 1;
+                           System.Console.WriteLine(num);
                        }
                        else
                        {
                            num = 0;
+                           System.Console.WriteLine(num);
                        }
                     }
                 }
