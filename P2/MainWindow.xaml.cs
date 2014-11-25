@@ -560,6 +560,8 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                 (((pos_y_hombro_right * 1.05) <= pos_y_wrist_right) || ((pos_y_hombro_right * 0.95) >= pos_y_wrist_right)))
                 )
             {
+                Instruccion.Text = "Brazos en posición correcta";
+                //Instruccion.Foreground = "Green";
                 return 1;    
             }
             else
@@ -574,6 +576,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                 (((pos_y_hombro_right * 1.05) >= pos_y_wrist_right))
                 ))
                 {
+                    Instruccion.Text = "Brazos por encima";
                     return 3;
                 }
                 else
@@ -588,6 +591,8 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                        (((pos_y_hombro_right * 1.05) <= pos_y_wrist_right))
                        ))
                     {
+                        Instruccion.Text = "Brazos por debajo";
+                       
                         return 2;
                     }
                         //Incorrecto
@@ -642,7 +647,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                {
                    
                    num = 1;
-                   System.Console.WriteLine(num);
+                   System.Console.WriteLine(num+" "+angulo_actual+" "+angulo);
                }
                else
                {
@@ -650,7 +655,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                    if (angulo_actual >= angulo * 1.05)
                    {
                        num = 2;
-                       System.Console.WriteLine(num);
+                       System.Console.WriteLine(num+" "+angulo_actual+" "+angulo);
                    }
                    else
                    {
@@ -658,7 +663,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                        if ((angulo_actual > angulo * 1.05) && (angulo_actual < angulo * 0.95))
                        {
                            num = 1;
-                           System.Console.WriteLine(num);
+                           System.Console.WriteLine(num+" "+angulo_actual+" "+angulo);
                        }
                        else
                        {
