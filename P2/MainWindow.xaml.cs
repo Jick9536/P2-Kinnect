@@ -561,7 +561,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                 )
             {
                 Instruccion.Text = "Brazos en posición correcta";
-                //Instruccion.Foreground = "Green";
+                Instruccion.Foreground = Brushes.Green;
                 return 1;    
             }
             else
@@ -577,6 +577,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                 ))
                 {
                     Instruccion.Text = "Brazos por encima";
+                    Instruccion.Foreground = Brushes.Blue;
                     return 3;
                 }
                 else
@@ -592,6 +593,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                        ))
                     {
                         Instruccion.Text = "Brazos por debajo";
+                        Instruccion.Foreground = Brushes.Orange;
                        
                         return 2;
                     }
