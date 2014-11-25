@@ -74,7 +74,7 @@
             <Button Name="Itinerario2" Content="Itinerario 2" Width="88" Visibility="Visible" RenderTransformOrigin="0.453,-2.05"/>
             <Button Name="Itinerario3" Content="Itinerario 3" Width="88" Visibility="Visible" RenderTransformOrigin="0.453,-2.05"/>
             <TextBlock Text="Regulador de error" Foreground="Black"/>
-            <Slider Name="Regulador"  Width="108" Height="25"/>
+            <Slider Name="Regulador" Minimum="5" Maximum="20" Value="12.5" Width="108" Height="25"/>
           
 
 
