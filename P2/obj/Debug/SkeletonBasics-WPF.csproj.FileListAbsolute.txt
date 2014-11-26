@@ -46,3 +46,5 @@ C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\P2- Kinnect
 C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\P2- Kinnect app completa\P2-Kinnect\P2\obj\Debug\SkeletonBasics-WPF.g.resources
 C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\P2- Kinnect app completa\P2-Kinnect\P2\obj\Debug\Microsoft.Samples.Kinect.SkeletonBasics.Properties.Resources.resources
 C:\Users\Jick-PC\Desktop\Julio\Trabajo\Universidad\ICC\NPI\Practicas\P2- Kinnect app completa\P2-Kinnect\P2\obj\Debug\SkeletonBasics-WPF.csproj.GenerateResource.Cache
+C:\Users\Jick-PC\Desktop\P2\obj\Debug\SkeletonBasics-WPF.exe
+C:\Users\Jick-PC\Desktop\P2\obj\Debug\SkeletonBasics-WPF.pdb
