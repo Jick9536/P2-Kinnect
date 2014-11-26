@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿#pragma checksum "..\..\MainWindow.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "A1C08C2375248E1E79CAA3F930F3020E"
+=======
+﻿#pragma checksum "..\..\MainWindow.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "89EAFF2724A4637630748C7CB3D0B525"
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 =======
 ﻿#pragma checksum "..\..\MainWindow.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "89EAFF2724A4637630748C7CB3D0B525"
 >>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
@@ -53,6 +57,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics {
         
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         #line 57 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock referencias;
@@ -61,6 +66,8 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics {
         #line hidden
         
         
+=======
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 =======
 >>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
         #line 60 "..\..\MainWindow.xaml"
@@ -80,7 +87,11 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics {
         
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         #line 66 "..\..\MainWindow.xaml"
+=======
+        #line 67 "..\..\MainWindow.xaml"
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 =======
         #line 67 "..\..\MainWindow.xaml"
 >>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
@@ -92,7 +103,11 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics {
         
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         #line 69 "..\..\MainWindow.xaml"
+=======
+        #line 70 "..\..\MainWindow.xaml"
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 =======
         #line 70 "..\..\MainWindow.xaml"
 >>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
@@ -104,7 +119,11 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics {
         
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         #line 72 "..\..\MainWindow.xaml"
+=======
+        #line 71 "..\..\MainWindow.xaml"
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 =======
         #line 71 "..\..\MainWindow.xaml"
 >>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
@@ -116,7 +135,11 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics {
         
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         #line 74 "..\..\MainWindow.xaml"
+=======
+        #line 73 "..\..\MainWindow.xaml"
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 =======
         #line 73 "..\..\MainWindow.xaml"
 >>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
@@ -128,7 +151,11 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics {
         
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         #line 75 "..\..\MainWindow.xaml"
+=======
+        #line 74 "..\..\MainWindow.xaml"
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 =======
         #line 74 "..\..\MainWindow.xaml"
 >>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
@@ -140,7 +167,11 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics {
         
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         #line 76 "..\..\MainWindow.xaml"
+=======
+        #line 75 "..\..\MainWindow.xaml"
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 =======
         #line 75 "..\..\MainWindow.xaml"
 >>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
@@ -152,7 +183,11 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics {
         
         
 <<<<<<< HEAD
+<<<<<<< HEAD
         #line 78 "..\..\MainWindow.xaml"
+=======
+        #line 77 "..\..\MainWindow.xaml"
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 =======
         #line 77 "..\..\MainWindow.xaml"
 >>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
