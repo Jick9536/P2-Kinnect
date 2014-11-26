@@ -1,7 +1,11 @@
 ﻿<Window x:Class="Microsoft.Samples.Kinect.SkeletonBasics.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+<<<<<<< HEAD
         Title="P2-Kinnect" Height="800" Width="1024" Loaded="WindowLoaded" Closing="WindowClosing">
+=======
+        Title="Skeleton Basics" Height="735" Width="770" Loaded="WindowLoaded" Closing="WindowClosing">
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 
     <Window.Resources>
         <SolidColorBrush x:Key="MediumGreyBrush" Color="#ff6e6e6e"/>
@@ -54,6 +58,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
+<<<<<<< HEAD
         <TextBlock x:Name="referencias" HorizontalAlignment="Left"><Run Language="es-es" Text="Based on samples Microsoft Kinnect Co"/></TextBlock>
 
         <TextBlock DockPanel.Dock="Right" Margin="10,5,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="18" Width="976" Height="116" Grid.Row="1"><Run Language="es-es" Text="P2 Kinect"/><LineBreak/><InlineUIContainer>
@@ -61,23 +66,44 @@
         	</InlineUIContainer><InlineUIContainer>
         		<TextBlock x:Name="Descrip_mov" Text="Explicación movimiento" Width="728" Foreground="Blue" FontSize="36"/>
         	</InlineUIContainer><LineBreak/></TextBlock>
+=======
+        <TextBlock DockPanel.Dock="Top" Margin="10,10,0,614" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontFamily="Segoe UI" FontSize="18" Width="732" Height="58" Grid.RowSpan="2">
+            <Run Language="es-es" Text="P2 Kinect"/>
+            <LineBreak/>
+           <TextBlock Name="Instruccion" Text="Instrucciones" Width="728" Foreground="Purple"/>
+        </TextBlock>
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 
-        <Viewbox Grid.Row="1" Stretch="None" HorizontalAlignment="Center">
+        <Viewbox Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Center">
             <Image Name="Image" Width="640" Height="534"/>
         </Viewbox>
+<<<<<<< HEAD
         <Viewbox Grid.Row="1" Stretch="None" HorizontalAlignment="Center" Margin="0,5,0,-5" Grid.RowSpan="3">
             <Image Name="SkeletonImage" Width="640" Height="520"/>
         </Viewbox>
 
         <StatusBar Grid.Row="1" Name="statusBar"  VerticalAlignment="Bottom"  Background="White" Foreground="{StaticResource MediumGreyBrush}" Height="70" Margin="-10,0,0,0">
 
+=======
+        <Viewbox Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Center">
+            <Image Name="SkeletonImage" Width="640" Height="534"/>
+        </Viewbox>
+        
+        <TextBlock x:Name="referencias" HorizontalAlignment="Left"><Run Language="es-es" Text="Based on samples Microsoft Kinnect Co"/></TextBlock>
+        <StatusBar Grid.Row="1" Name="statusBar"  VerticalAlignment="Bottom"  Background="White" Foreground="{StaticResource MediumGreyBrush}" Height="70">
+           
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
             <Button Name="Itinerario1" Content="Itinerario 1" Width="88" Visibility="Visible" RenderTransformOrigin="0.453,-2.05"/>
             <Button Name="Itinerario2" Content="Itinerario 2" Width="88" Visibility="Visible" RenderTransformOrigin="0.453,-2.05"/>
             <Button Name="Itinerario3" Content="Itinerario 3" Width="88" Visibility="Visible" RenderTransformOrigin="0.453,-2.05"/>
             <TextBlock Text="Regulador de error" Foreground="Black"/>
             <Slider Name="Regulador" Minimum="5" Maximum="20" Value="12.5" Width="108" Height="25"/>
+<<<<<<< HEAD
             <Button x:Name="Reinicio" Content="Reinciar" Width="75"/>
 
+=======
+          
+>>>>>>> parent of 939e95b... interfaz con ventana de tamaño fijo.
 
 
         </StatusBar>
