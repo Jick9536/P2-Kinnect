@@ -298,7 +298,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                         if (skel.TrackingState == SkeletonTrackingState.Tracked)
                         {
                             this.DrawBonesAndJoints(skel, dc);
-                            this.position15(skel,dc);
+                            //this.position15(skel,dc);
                             
                         }
                         else if (skel.TrackingState == SkeletonTrackingState.PositionOnly)
